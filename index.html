@@ -11,17 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body id="top">
-    <!-- Top strip: contact details always visible -->
-    <div class="topbar">
-      <div class="wrap topbar__inner">
-        <span class="topbar__area">Covering Slough, Langley &amp; the Thames Valley</span>
-        <div class="topbar__contact">
-          <a href="mailto:info@oldenglishbricklayer.co.uk">info@oldenglishbricklayer.co.uk</a>
-          <a class="topbar__phone" href="tel:+447480947125">Freephone 07480&nbsp;947125</a>
-        </div>
-      </div>
-    </div>
-
     <!-- Sticky header -->
     <header class="header" id="site-header">
       <div class="wrap header__inner">
@@ -60,27 +49,35 @@
     <main>
       <!-- ============ HERO ============ -->
       <section class="hero">
-        <div class="hero__media" aria-hidden="true"></div>
-        <div class="hero__overlay" aria-hidden="true"></div>
-        <div class="wrap hero__inner">
-          <p class="hero__kicker">Bricklayers · Langley, Slough</p>
-          <h1 class="hero__title">Brickwork done properly — walls, repointing &amp; extensions.</h1>
-          <p class="hero__lead">
-            Time-served bricklayers covering Slough and the Thames Valley. Neat,
-            straight, built to last — and we clear up after ourselves. Free
-            estimates, all work guaranteed.
-          </p>
-          <div class="hero__actions">
-            <a class="btn btn--solid btn--lg" href="#estimate">Get a price estimate</a>
-            <a class="btn btn--light btn--lg" href="tel:+447480947125">
-              <span class="btn__ic" aria-hidden="true">✆</span> Call us free
-            </a>
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <p class="hero__kicker">Bricklayers in Langley, Slough</p>
+            <h1 class="hero__title">Brickwork done <span class="mark">properly</span> — walls, repointing &amp; extensions.</h1>
+            <p class="hero__lead">
+              Time-served bricklayers covering Slough and the Thames Valley.
+              Neat, straight and built to last — and we clear up after ourselves.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--solid btn--lg" href="#estimate">Get a free estimate</a>
+              <a class="btn btn--outline btn--lg" href="tel:+447480947125">
+                <span class="btn__ic" aria-hidden="true">✆</span> 07480 947125
+              </a>
+            </div>
+            <div class="hero__trust">
+              <span class="hero__stars" aria-hidden="true">★★★★★</span>
+              <span>Rated <strong>5.0 on Facebook</strong> · 20+ years on the trowel · fully insured</span>
+            </div>
           </div>
-          <ul class="hero__points">
-            <li>Free, no-obligation quotes</li>
-            <li>All work guaranteed</li>
-            <li>No job too small</li>
-          </ul>
+
+          <div class="hero__visual">
+            <div class="shot hero__shot" data-label="Recent brickwork · Slough"></div>
+            <div class="hero__card">
+              <span class="hero__card-tag">Free estimates</span>
+              <strong>No job too small</strong>
+              <span class="hero__card-sub">Call for a free, no-obligation quote</span>
+              <a class="hero__card-phone" href="tel:+447480947125">07480 947125</a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -399,7 +396,7 @@
     </footer>
 
     <a class="callbar" href="tel:+447480947125">
-      <span>Call Old English Bricklayer</span><strong>07480 947125</strong>
+      <span>Call us today</span><strong>07480 947125</strong>
     </a>
 
     <script type="module" src="/src/main.js"></script>
