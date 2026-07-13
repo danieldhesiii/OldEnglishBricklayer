@@ -1,8 +1,7 @@
-import 'splitting/dist/splitting.css';
 import './styles.css';
 
 import { initSmoothScroll } from './lib/smoothScroll.js';
-import { initTextReveal, initScrollReveal } from './lib/textReveal.js';
+import { initScrollReveal } from './lib/textReveal.js';
 import { initUI } from './lib/ui.js';
 import { initGallery } from './lib/gallery.js';
 import { initCalculator } from './lib/calculator.js';
@@ -21,9 +20,5 @@ initBooking();
 // Smooth scroll + scroll-driven animation only when motion is welcome.
 if (!reduceMotion) {
   initSmoothScroll();
-  initTextReveal();
   initScrollReveal();
-} else {
-  // Make sure split headings are visible if we skipped the reveal.
-  document.querySelectorAll('[data-splitting]').forEach((el) => (el.style.opacity = 1));
 }
