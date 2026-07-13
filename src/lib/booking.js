@@ -17,7 +17,7 @@ function stamp(d) {
 function buildEvent(fields) {
   const start = new Date(`${fields.date}T${fields.time}:00`);
   const end = new Date(start.getTime() + 60 * 60 * 1000);
-  const title = `${BUSINESS} — free estimate visit`;
+  const title = `${BUSINESS}: free estimate visit`;
   const details =
     `Brickwork estimate visit.\n` +
     `Service: ${fields.service}\n` +
@@ -84,7 +84,7 @@ export function initBooking() {
     });
 
     summary.innerHTML =
-      `Thanks <strong>${data.name.split(' ')[0]}</strong> — we&rsquo;ve got you down for ` +
+      `Thanks <strong>${data.name.split(' ')[0]}</strong>, we&rsquo;ve got you down for ` +
       `<strong>${when} at ${data.time}</strong> for ${data.service.toLowerCase()}. ` +
       `We&rsquo;ll call ${data.phone} to confirm.`;
 

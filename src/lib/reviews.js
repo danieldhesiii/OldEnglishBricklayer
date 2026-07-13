@@ -13,7 +13,7 @@ const SEED = [
   { name: 'D. Okafor', src: 'Google', rating: 4,
     text: 'Good, solid brickwork on our extension. Job took a little longer than planned but the finish is spot on and they kept us in the loop throughout.' },
   { name: 'Jenny R.', src: 'Facebook', rating: 5,
-    text: 'New brick piers and railings out front. Proper craftsmen — dead straight, lovely crisp joints. Neighbours have already asked who did it.' },
+    text: 'New brick piers and railings out front. Proper craftsmen, dead straight with lovely crisp joints. Neighbours have already asked who did it.' },
   { name: 'Tom (Iver)', src: 'Facebook', rating: 5,
     text: 'Block-paved the drive and laid a brick border. Great communication from the first quote to the last brush-down. Highly recommend to anyone local.' },
 ];

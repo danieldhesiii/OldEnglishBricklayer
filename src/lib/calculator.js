@@ -32,11 +32,11 @@ function read(form) {
 }
 
 const HINTS = {
-  wall: 'A guess is fine — length × height for walls.',
+  wall: 'A guess is fine. Length × height for walls.',
   repoint: 'Roughly the wall area being raked out and repointed.',
   paving: 'The area to be paved, in square metres.',
   extension: 'Approx external wall area of the brickwork.',
-  repair: 'Small area — even 1–2 m² is fine.',
+  repair: 'Small area. Even 1 to 2 m² is fine.',
 };
 
 export function initCalculator() {
