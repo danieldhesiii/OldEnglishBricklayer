@@ -102,15 +102,19 @@ h1, h2, h3, h4 { font-family: var(--head); font-weight: 800; line-height: 1.08; 
   background-size: 100% 100%, 100% 34px, 68px 100%, 100% 100%;
   min-height: 210px;
 }
+/* Fallback vignette — sits behind the photo, only visible if an image fails */
 .shot::before {
   content: ""; position: absolute; inset: 0;
   background: radial-gradient(90% 80% at 50% 30%, transparent 40%, rgba(0,0,0,.28));
 }
+/* Caption scrim — sits ON TOP of the photo so labels stay readable */
 .shot::after {
   content: attr(data-label);
-  position: absolute; left: 14px; bottom: 14px; right: 14px;
+  position: absolute; inset: 0; display: flex; align-items: flex-end;
+  padding: 1rem 1.1rem;
   font-family: var(--head); font-weight: 700; font-size: .9rem; letter-spacing: .01em;
-  color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,.5);
+  color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,.55);
+  background: linear-gradient(to top, rgba(0,0,0,.62), rgba(0,0,0,.05) 42%, transparent 62%);
 }
 .shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
