@@ -1,0 +1,57 @@
+{
+  "/Users/kamil/Desktop/OldEnglishbrickwork/package.json": {
+    "mtime": 1783946216.0781062,
+    "ast_hash": "086b12b7d9dd96b33054ae796737d141",
+    "semantic_hash": "086b12b7d9dd96b33054ae796737d141"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/booking.js": {
+    "mtime": 1783946800.8006496,
+    "ast_hash": "f97de8df0f453aa01f48d934bcf72368",
+    "semantic_hash": "f97de8df0f453aa01f48d934bcf72368"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/calculator.js": {
+    "mtime": 1783946751.1969361,
+    "ast_hash": "89895c0be053e249d5c03bb7fab5038f",
+    "semantic_hash": "89895c0be053e249d5c03bb7fab5038f"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/gallery.js": {
+    "mtime": 1783946728.5849104,
+    "ast_hash": "fac654ed49525d1b662dedabf13ff00f",
+    "semantic_hash": "fac654ed49525d1b662dedabf13ff00f"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/reviews.js": {
+    "mtime": 1783946849.889601,
+    "ast_hash": "9b014c10a3f485b14f639fb9ca8a3a00",
+    "semantic_hash": "9b014c10a3f485b14f639fb9ca8a3a00"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/smoothScroll.js": {
+    "mtime": 1783946241.9936347,
+    "ast_hash": "bb0bb41e00f7aeabf73c8a284b776772",
+    "semantic_hash": "bb0bb41e00f7aeabf73c8a284b776772"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/textReveal.js": {
+    "mtime": 1783946721.4476647,
+    "ast_hash": "76c380ce846c1b4c105b777cc6301362",
+    "semantic_hash": "76c380ce846c1b4c105b777cc6301362"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/lib/ui.js": {
+    "mtime": 1783946809.481808,
+    "ast_hash": "d681dd60fda1095248a8a80ab2d15f5d",
+    "semantic_hash": "d681dd60fda1095248a8a80ab2d15f5d"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/src/main.js": {
+    "mtime": 1783946816.0934289,
+    "ast_hash": "7de5625fe77cd7c05c6557f2301b71ca",
+    "semantic_hash": "7de5625fe77cd7c05c6557f2301b71ca"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/README.md": {
+    "mtime": 1783946895.138235,
+    "ast_hash": "9c947e9dbae1a5060e6fd6b632c18e2e",
+    "semantic_hash": "9c947e9dbae1a5060e6fd6b632c18e2e"
+  },
+  "/Users/kamil/Desktop/OldEnglishbrickwork/index.html": {
+    "mtime": 1783946602.0540342,
+    "ast_hash": "0e2f5be5b92699049176fc258dc275aa",
+    "semantic_hash": "0e2f5be5b92699049176fc258dc275aa"
+  }
+}
