@@ -149,7 +149,7 @@ h1, h2, h3, h4 { font-family: var(--head); font-weight: 800; line-height: 1.08; 
 
 .hero__visual { position: relative; }
 .hero__shot { min-height: 470px; box-shadow: var(--shadow-lg); }
-.hero__card { position: absolute; right: -20px; bottom: -20px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 1.2rem 1.4rem; box-shadow: var(--shadow-lg); max-width: 234px; }
+.hero__card { position: absolute; left: -20px; bottom: -20px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 1.2rem 1.4rem; box-shadow: var(--shadow-lg); max-width: 234px; }
 .hero__card-tag { display: inline-block; font-family: var(--head); font-weight: 700; text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; color: #fff; background: var(--amber); padding: .25rem .6rem; border-radius: 100px; margin-bottom: .6rem; }
 .hero__card strong { display: block; font-family: var(--head); font-size: 1.12rem; color: var(--ink); }
 .hero__card-sub { display: block; font-size: .82rem; color: var(--ink-soft); margin: .15rem 0 .7rem; }
